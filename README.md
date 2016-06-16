@@ -1,3 +1,8 @@
+# aurelia-rating-dialog-demo
+
+A simple dialog [demo](http://scottwhittaker.net/aurelia/2016/05/30/aurelia-rating-dialog.html) based off the [aurelia-skeleton-navigation](https://github.com/aurelia/skeleton-navigation/releases/latest) app.
+
+
 # aurelia-skeleton-navigation
 
 ## Running The App
