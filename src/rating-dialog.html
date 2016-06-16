@@ -1,0 +1,14 @@
+<template>
+  <ai-dialog>
+    <ai-dialog-header>${heading}</ai-dialog-header>
+    <ai-dialog-body click.delegate="rate($event)">
+      <div repeat.for="i of maxRating"
+           data-rate="${i + 1}"
+           class="rate ${i + 1 <= rating ? 'selected' : ''} ${i + 1 == rating ? 'active' : ''}">${i + 1}</div>
+    </ai-dialog-body>
+    <ai-dialog-footer>
+      <button click.delegate="controller.cancel()">Cancel</button>
+      <button click.delegate="controller.ok(rating)">Ok</button>
+    </ai-dialog-footer>
+  </ai-dialog>
+</template>
